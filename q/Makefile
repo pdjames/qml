@@ -5,7 +5,7 @@ k.h.sha256 = cbf96d056492f0d26f84510497b08a6bedb612c131031b4605bedf99f4f7db8d
 
 $(KXARCH)/q.lib.url = $(Q_DIR)/$(KXARCH)/q.lib
 w32/q.lib.sha256 = 05520dab4079d379f18b0f0a8d2c27383975b050dc316ccee1f6c9c67892de81
-w64/q.lib.sha256 = 98907c494b982fef150bd0c42775c38bad3ffd435b8001bd30cff0c22280df7d
+w64/q.lib.sha256 = d3fe38a7450a73bafe62aa33245d5fadfc58a936100297015e47701e3b027832
 
 Q_LIB=$(if $(WINDOWS),../download/$(KXARCH)/q.lib,)
 
