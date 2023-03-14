@@ -12,7 +12,7 @@ struct call_info {
     F base;
     K start;
     K error;
-} call;
+};
 
 F call_param(struct call_info* info, int sign, K f, F* param);
 

@@ -28,6 +28,7 @@ To compile and install from source code, run
     make test
     make install
 
+For the first time, please run ./configure with option --build-blas --build-lapack. 
 To install a precompiled binary, copy qml.q into the same directory as q.k, and
 copy qml.dll or qml.so into the same directory as q.exe or q. Then run test.q.
 
