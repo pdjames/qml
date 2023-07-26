@@ -18,7 +18,7 @@ jobs:
     - name: make
       run: make
     - name: mkdir
-      run: mkdir -p $(Q_DIR)/$(KXARCH)
+      run: mkdir -p /home/runner/q/l64/
     - name: make install
       run: make install
 
