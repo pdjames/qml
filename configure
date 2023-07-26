@@ -558,6 +558,9 @@ makeselect "looking for sha256 program..." \
 # Done
 #
 
+
+mkdir -p $(QHOME_CONFIG)/$(KXARCH)/
+
 echo 'writing configuration to config.mk'
 sed 's/\$/$$/g' >config.mk <<MAKEFILE
 KXARCH         := $KXARCH
