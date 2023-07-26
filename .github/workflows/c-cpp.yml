@@ -17,5 +17,13 @@ jobs:
       run: ./configure
     - name: make
       run: make
+    - name: mkdir
+      run: mkdir -p $(QHOME)/q/$(KXARCH)
     - name: make install
       run: make install
+
+    - name: Use the Upload Artifact GitHub Action
+      uses: actions/upload-artifact@v2
+      with: 
+        name: assets-for-download
+        path: downloads
